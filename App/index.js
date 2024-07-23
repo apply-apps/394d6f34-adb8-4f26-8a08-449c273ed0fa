@@ -1,5 +1,6 @@
 // Filename: index.js
 // Combined code from all files
+
 import React, { useState } from 'react';
 import { SafeAreaView, StyleSheet, Text, View, Button, TextInput, ScrollView } from 'react-native';
 
@@ -69,7 +70,7 @@ const App = () => {
             <WorkoutTracker />
         </SafeAreaView>
     );
-};
+}
 
 const styles = StyleSheet.create({
     container: {
